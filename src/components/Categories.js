@@ -18,7 +18,7 @@ const Categories = () => {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/categories`)
+        axios.get(`https://furniture-server-ruddy.vercel.app/categories`)
             .then(res => {
                 setCategories(res.data)
                 setLoading(false)

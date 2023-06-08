@@ -10,7 +10,7 @@ const AllProducts = () => {
     const products = useLoaderData()
     const navigation = useNavigation()
 
-    const { _id } = products;
+    // const { _id } = products;
     const [item, setItem] = useState(null);
     useTitle("All Products");
 

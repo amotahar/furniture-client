@@ -14,7 +14,7 @@ const PaymentList = () => {
     useTitle('AllPayments')
 
     //!All Payments url
-    const url = `http://localhost:5000/payments`;
+    const url = `https://furniture-server-ruddy.vercel.app/payments`;
 
 
 
@@ -52,7 +52,7 @@ const PaymentList = () => {
 
     // !success Action on Modal
     const handleDeletePayment = payment => {
-        fetch(`http://localhost:5000/payments/${payment._id}`, {
+        fetch(`https://furniture-server-ruddy.vercel.app/payments/${payment._id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `bearer ${localStorage.getItem('accessToken')}`

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import Navbar from './../components/Navbar'
 import { Link, Outlet } from 'react-router-dom';
-import { FaUsers, FaTasks, FaRegPlusSquare, FaDollyFlatbed, FaMoneyBillWave, FaPersonBooth, FaClipboardCheck } from 'react-icons/fa';
+import { FaUsers, FaTasks, FaRegPlusSquare, FaDollyFlatbed, FaMoneyBillWave, FaPersonBooth} from 'react-icons/fa';
 import { FcDebt, FcBullish } from "react-icons/fc";
 import { AuthContext } from '../context/AuthProvider';
 import useAdmin from '../hooks/useAdmin';

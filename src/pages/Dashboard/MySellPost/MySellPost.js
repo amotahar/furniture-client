@@ -13,7 +13,7 @@ const MySellPost = () => {
 
 
     //!Email quary for myOrders
-    const url = `http://localhost:5000/mySellPost?email=${user?.email}`;
+    const url = `https://furniture-server-ruddy.vercel.app/mySellPost?email=${user?.email}`;
 
 
 
@@ -56,7 +56,7 @@ const MySellPost = () => {
 
     // !success Action on Modal
     const handleDeleteProduct = p => {
-        fetch(`http://localhost:5000/mySellPost/${p._id}`, {
+        fetch(`https://furniture-server-ruddy.vercel.app/mySellPost/${p._id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `bearer ${localStorage.getItem('accessToken')}`

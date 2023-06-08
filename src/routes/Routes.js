@@ -38,7 +38,7 @@ export const routes = createBrowserRouter([
             {
                 path: "/category/:id",
                 element: <Category></Category>,
-                loader: ({ params }) => fetch(`http://localhost:5000/items/${params.id}`)
+                loader: ({ params }) => fetch(`https://furniture-server-ruddy.vercel.app/items/${params.id}`)
 
             },
             {
@@ -49,7 +49,7 @@ export const routes = createBrowserRouter([
             {
                 path: "/allproducts",
                 element: <AllProducts></AllProducts>,
-                loader: () => fetch("http://localhost:5000/products"),
+                loader: () => fetch("https://furniture-server-ruddy.vercel.app/products"),
             },
             {
                 path: "/login",
@@ -85,7 +85,7 @@ export const routes = createBrowserRouter([
             {
                 path: '/dashboard/payment/:id',
                 element: <Payment></Payment>,
-                loader: ({ params }) => fetch(`http://localhost:5000/bookings/${params.id}`)
+                loader: ({ params }) => fetch(`https://furniture-server-ruddy.vercel.app/bookings/${params.id}`)
             }, 
             {
                 path: "/dashboard/addproduct",

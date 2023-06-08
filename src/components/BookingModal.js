@@ -3,7 +3,7 @@ import { AuthContext } from '../context/AuthProvider';
 import { toast } from 'react-hot-toast';
 
 const BookingModal = ({ item, setItem }) => {
-    const { image, category, name, email, resalePrice, availabilty, _id } = item;
+    const { image, category, name, resalePrice} = item;
     const { user } = useContext(AuthContext)
 
 
@@ -36,7 +36,7 @@ const BookingModal = ({ item, setItem }) => {
        
 
         //!Post Api Methods
-        fetch('http://localhost:5000/bookings', {
+        fetch('https://furniture-server-ruddy.vercel.app/bookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

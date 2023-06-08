@@ -13,7 +13,7 @@ const AllSeller = () => {
     const { data: sellers = [], isLoading, refetch } = useQuery({
         queryKey: ['sellers'],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/role?role=seller');
+            const res = await fetch('https://furniture-server-ruddy.vercel.app/role?role=seller');
             const data = await res.json();
             return data;
         }
@@ -32,7 +32,7 @@ const AllSeller = () => {
 
     // !success Action on Modal
     const handleDeleteSeller = p => {
-        fetch(`http://localhost:5000/users/${p._id}`, {
+        fetch(`https://furniture-server-ruddy.vercel.app/users/${p._id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `bearer ${localStorage.getItem('accessToken')}`
