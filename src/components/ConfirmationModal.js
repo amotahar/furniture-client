@@ -1,0 +1,32 @@
+import React from 'react';
+
+const ConfirmationModal = ({ title, message, successButtonName, closeModal, successAction, modalData }) => {
+    return (
+        <div>
+           
+           
+
+
+            <input type="checkbox" id="confirmation-modal" className="modal-toggle" />
+            <div className="modal">
+                <div className="modal-box">
+                    <h3 className="font-bold text-xl text-red-600">{title}</h3>
+                    <p className="py-4  text-justify text-secondary-focus">{message}</p>
+                    <div className="modal-action">
+
+                        <label
+                            onClick={() => successAction(modalData)}
+                            htmlFor="confirmation-modal"
+                            className="btn btn-primary hover:bg-secondary">{successButtonName}</label>
+
+
+
+                        <button onClick={closeModal} className='btn btn-outline '>cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default ConfirmationModal;

@@ -1,0 +1,32 @@
+/* //!Font */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@1&display=swap');
+/* bangla font */
+/* font-family: 'Tiro Bangla', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/* font-family: 'Aclonica', sans-serif; */
+
+/* //! tailwind .. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

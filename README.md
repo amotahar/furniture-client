@@ -1,72 +1,84 @@
-# Getting Started with Create React App
+# ✅✨Wood Sell✨✅ 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Wood Sell is a Furniture based web application. Here used-furniture are available for buy and sell. You can booked the product and also can pay with stripe.  
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
 
-### `npm start`
+## 🔗 Links
+- [live SIte](https://wood-sell.web.app/)
+- [Client-site](https://github.com/esamohammad/wood-sell-client)
+- [Server-Site](https://github.com/esamohammad/wood-sell-server-site)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
+<br>
+<br>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 💠Admin Info💠
+- email: admin@gmail.com
+- password: Aa@123
 
-### `npm run build`
+<br>
+<br>
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 💖💥Features💥💖
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Its a Furniture reseller website
+- Responsive for all device
+- Seller can add product
+- Seller can delete product
+- Buyer can pay with stripe
+- Separate Buyer, Seller, Admin Dashboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<br>
+<br>
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 💥✅Installation (Test Purpose )✅💥
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- step 1: clone this repository  and server repository in your PC.
+- step 2: Install the dependencies for both repository and server.
+```bash
+  npm i --legacy-peer-deps 
+``` 
+- step 3: If necessary to update those dependencies.
+```bash
+  npx npm-check-updates -u 
+  npm install
+``` 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- step 4: You have to install firebase and set credentials in the environment variable.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- step 5: You have to create a account in imgbb.com/ and set api credentials in the environment variable.
 
-## Learn More
+- step 6: You have to create a account in stripe.com/ and set api credentials in the environment variable.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<br>
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 💠🎯Tech Stack🎯💠
 
-### Analyzing the Bundle Size
+**Client:-** 
+- React Js 
+- TailwindCSS
+- Firebase
+- DaisyUI
+- Axios
+- React-hook-form
+- Stripe
+- imgbb
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# react-auth" 
-"# react-new-auth" 
+**Server:-** 
+- Node
+- Express
+- MongoDB
+- Dotenv
+- Cors
