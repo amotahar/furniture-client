@@ -1,4 +1,4 @@
-# ✅✨Wood Sell✨✅ 
+# ✅✨Furniture Buy & Sell✨✅ 
 
 Wood Sell is a Furniture based web application. Here used-furniture are available for buy and sell. You can booked the product and also can pay with stripe.  
 
@@ -6,9 +6,9 @@ Wood Sell is a Furniture based web application. Here used-furniture are availabl
 
 
 ## 🔗 Links
-- [live SIte](https://wood-sell.web.app/)
-- [Client-site](https://github.com/esamohammad/wood-sell-client)
-- [Server-Site](https://github.com/esamohammad/wood-sell-server-site)
+- [live SIte](https://wood-seller-5887c.web.app/)
+- [Client-site](https://github.com/amotahar/furniture-client)
+- [Server-Site](https://github.com/amotahar/furniture-server)
 
 
 <br>
